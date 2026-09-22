@@ -27,6 +27,6 @@ The algorithms are currently being migrated to a custom **ESP32-based "gm-contro
 
 *(Reviewer Note: Physical deployment and HIL validation are slated for subsequent publications evaluating fixed-point execution and Control Barrier Functions).*
 
-![Physical Cart-Pole Testbed](cartpole.jpg)
+![Front.jpeg](cartpole.jpg)
 
-![Custom ESP32 gm-controller](gm-controller.jpg)
+![Gm_Controller.jpeg](gm-controller.jpg)
