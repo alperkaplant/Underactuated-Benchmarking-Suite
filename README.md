@@ -11,3 +11,22 @@ It provides a lightweight, non-proprietary computational suite to benchmark nonl
 
 ## Installation and Usage
 Ensure you have Python 3.8+ installed, then install the required dependencies:
+
+bash
+pip install -r requirements.txt
+
+Run the master simulation script to generate the transient response and control effort vectors:
+
+bash
+python simulation_benchmark.py
+
+## Towards Physical Deployment: Hardware-in-the-Loop (HIL)
+While this repository focuses on the continuous-time simulation baseline, the control architectures are explicitly bounded by the physical saturation constraints of our ongoing hardware development. 
+
+The algorithms are currently being migrated to a custom **ESP32-based "gm-controller"** board for real-time FreeRTOS execution. Below is the completed physical Cart-Pole testbed and the custom embedded hardware that will bridge this simulation to reality in our future work:
+
+*(Reviewer Note: Physical deployment and HIL validation are slated for subsequent publications evaluating fixed-point execution and Control Barrier Functions).*
+
+![Physical Cart-Pole Testbed](cartpole.jpg)
+
+![Custom ESP32 gm-controller](gm-controller.jpg)
