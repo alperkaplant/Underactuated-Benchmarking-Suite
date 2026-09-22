@@ -13,3 +13,6 @@ It provides a lightweight, non-proprietary computational suite to benchmark nonl
 Ensure you have Python 3.8+ installed, then install the required dependencies:
 ```bash
 pip install -r requirements.txt
+
+```bash
+python simulation_benchmark.py
